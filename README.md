@@ -73,3 +73,4 @@ Once the setup and configuration are complete, you are ready to start detecting 
 ```
 python run.py
 ```
+![Example Output](img/terminal.png "Console")

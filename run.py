@@ -122,7 +122,7 @@ if __name__ == "__main__":
     
     # Display fancy header
     header = Panel.fit(
-        Text("CSV Comparison Tool", justify="center", style="bold white on blue"),
+        Text("ZFA GUI Change Helper", justify="center", style="bold white on blue"),
         border_style="cyan",
     )
     console.print(header)
