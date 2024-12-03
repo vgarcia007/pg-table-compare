@@ -1,4 +1,5 @@
-python-dotenv
-pandas
 psycopg2-binary
-psycopg2
+pandas
+python-dotenv
+csv-diff
+rich
