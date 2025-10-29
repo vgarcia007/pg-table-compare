@@ -1,9 +1,9 @@
 version: "3.9"
 
 services:
-  db-compare:
+  db-change-detector:
     image: python:3.11-slim
-    container_name: db-compare
+    container_name: db-change-detector
     working_dir: /app
     volumes:
       - ./:/app:rw

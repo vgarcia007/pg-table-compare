@@ -11,10 +11,11 @@ import warnings
 
 
 # SQL query and comparison key
+# Example: sql_query = "SELECT * from schema.tablename WHERE id = 123"
+# Example: compare_key = "id"
 
-#sql_query = "SELECT * from gfr.gfrgebaeude where gfrgebaeudeid = 13971"
-sql_query = "SELECT * from gfr.gfrgebaeude"
-compare_key = "gfrgebaeudeid"
+sql_query = "SELECT * from schema.tablename"
+compare_key = "id"
 
 # Suppress the specific pandas warning
 warnings.filterwarnings("ignore", message="pandas only supports SQLAlchemy connectable")
@@ -122,7 +123,7 @@ if __name__ == "__main__":
     
     # Display fancy header
     header = Panel.fit(
-        Text("ZFA GUI Change Helper", justify="center", style="bold white on blue"),
+        Text("Database Change Detector", justify="center", style="bold white on blue"),
         border_style="cyan",
     )
     console.print(header)
